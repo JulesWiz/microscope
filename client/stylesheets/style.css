@@ -31,11 +31,6 @@ display: inline-block; color: #aaaaaa;
 }
 .post .post-content p { margin: 0 } .post .discuss {
 display: block; float: right;
-￼
-￼Commit 2-3
-Re-arranged file structure.
-View on GitHub Launch Instance
-￼￼
 margin-top: 7px; }
 .comments { list-style-type: none; margin: 0;
 }
@@ -57,3 +52,4 @@ line-height: 60px; margin-bottom: 10px;
 .load-more:hover {
 text-decoration: none;
 background: rgba(0, 0, 0, 0.1);
+}
