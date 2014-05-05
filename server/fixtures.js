@@ -18,7 +18,8 @@ if (Posts.find().count() === 0) {
     userId: jul._id,
     author: jul.profile.name,
     url: 'http://ngjulie.meteor.com',
-    submitted: now - 7 * 3600 * 1000
+    submitted: now - 7 * 3600 * 1000,
+    commentsCount: 2
   });
 
   Comments.insert({
@@ -42,7 +43,8 @@ if (Posts.find().count() === 0) {
     userId: har._id,
     author: har.profile.name,
     url: 'http://verybite.com',
-    submitted: now - 10 * 3600 * 1000
+    submitted: now - 10 * 3600 * 1000,
+    commentsCount: 0
   });
 
   Posts.insert({
@@ -50,6 +52,7 @@ if (Posts.find().count() === 0) {
     userId: jul._id,
     author: jul.profile.name,
     url: 'http://linkedin.com/julieasia',
-    submitted: now - 12 * 3600 * 1000
+    submitted: now - 12 * 3600 * 1000,
+    commentsCount: 0
   });
 }
