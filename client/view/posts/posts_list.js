@@ -15,8 +15,3 @@ var postsData = [
     url: 'http://linkedin.com/julieasia'
   }
 ];
-Template.postsList.helpers({
-  posts: function() {
-    return Posts.find({}, {sort: {submitted:-1}});
-  }
-});
